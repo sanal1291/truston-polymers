@@ -27,7 +27,7 @@ export default function Testimonials() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h2 className="h2 mb-4">TRUSTON has a list of CUSTOMISED portfolios manufactured for various companies.  </h2>
+            <h2 className="h2 mb-4" data-aos="zoom-y-out">TRUSTON has a list of CUSTOMISED portfolios manufactured for various companies.  </h2>
             <p className="text-xl text-gray-600" data-aos="zoom-y-out">Aerospace, Agriculture, Agro, Automative, Building & Construction, Ceramic, Chemical,
               Construction, Conveyor lines, Distilleries & Beverages, Food processing companies,
               Heavy Equipment Industries, Heavy Industries, Machine/ Tire manufacturers,
@@ -40,7 +40,7 @@ export default function Testimonials() {
               washers to complex assembled parts, with metallic combination, Metallic to Non-Metallic conversion, Material upgradation, Weight reduction, …..
             </p>
           </div>
-          <h4 className="h4 text-center mb-4">With vast experience in adhesive and polymer manufacturing, we are committed to provide the best quality products possible to our customers.</h4>
+          <h4 className="h4 text-center mb-4" data-aos="zoom-y-out">With vast experience in adhesive and polymer manufacturing, we are committed to provide the best quality products possible to our customers.</h4>
           {/* Items */}
           {/* <div className="max-w-sm md:max-w-4xl mx-auto grid gap-2 grid-cols-4 md:grid-cols-5">
 

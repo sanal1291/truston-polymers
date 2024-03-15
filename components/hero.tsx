@@ -55,7 +55,7 @@ export default function Hero() {
           {/* Hero image */}
 
           <div className='flex flex-wrap justify-center'>
-            <div className='p-2'>
+            <div className='p-2' data-aos="zoom-y-out">
               <ModalVideo
                 thumb={VideoThumb1}
                 thumbWidth={240}
@@ -65,7 +65,7 @@ export default function Hero() {
                 videoWidth={480}
                 videoHeight={832} />
             </div>
-            <div className='p-2'>
+            <div className='p-2' data-aos="zoom-y-out">
               <ModalVideo
                 thumb={VideoThumb2}
                 thumbWidth={240}

@@ -159,7 +159,7 @@ export default function Features() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-6 md:pb-6">
-            <h1 className="h2 mb-4">Instant Features </h1>
+            <h1 className="h2 mb-4" data-aos="zoom-y-out">Instant Features </h1>
             {/* <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p> */}
           </div>
 
