@@ -8,6 +8,7 @@
 @import 'additional-styles/theme.css';
 
 @import 'tailwindcss/utilities';
+@import "swiper/swiper.min.css";
 
 /* Additional Tailwind directives: https://tailwindcss.com/docs/functions-and-directives/#responsive */
 @layer utilities {
@@ -15,4 +16,3 @@
         direction: rtl;
     }
 }
-

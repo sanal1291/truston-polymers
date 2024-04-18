@@ -14,67 +14,57 @@ export default function Features() {
   const [tabs, setTabs] = useState([
     {
       index: 0,
-      name: "UHMW (ultra high molecular weight polyethylene) ",
+      name: "UHMW-PE ",
       description: "Is an extremely tough plastic with high abrasion and wear resistance. The versatility of polyethylene has made it a popular plastic for countless industrial applications that require durability, low friction, and chemical resistance. It is used in biomedical engineering due to its high wear-resistance, ductility, and biocompatibility, high tensile & compressive strength. ",
-      text: "Ram Extrusion Rods upto 150mm dia, Compression moulded sheets upto 175mm Thcikness & Profiles.   We can supply large quantity with colour choice.",
+      // text: "Ram Extrusion Rods upto 150mm dia, Compression moulded sheets upto 175mm Thcikness & Profiles.   We can supply large quantity with colour choice.",
       advantages: [
-        "Self-Lubrication and Non-stick",
-        "Excellent resistance to stress and high resistant    ",
-        "High operational temperatures  ",
-        "Excellent dielectric properties",
-        "Highly resistant to most alkalis and acid, organic solvents, degreasing agents.  ",
+        "Impact Resistant",
+        "Abrasion Resistance",
         "Non-staining, Non toxic.",
-        "Economic material is Easy to produce & assemble. ",
+        "Self-Lubricating Low Friction Polymer",
+        "High operational temperatures",
+        "UHMW is 8 Times Lighter Than Steel",
+        "UHMW Reduces Maintenance Costs & Downtime",
+        "Highly resistant to most alkalis and acid, organic solvents, degreasing agents.",
       ],
       applications: [
-        "Biomedical materials ",
-        "Diverse spectrum of applications ",
-        "Transport related applications including truck trays, bins, hoppers, Liners etc",
-        "Bulk material handling",
-        "Food processing and beverage machinery",
-        "Mining and mineral processing equipment",
-        "Manufacturing equipment",
-        "Civil engineering and earthmoving equipment.",
-        "High speed conveyors, Packaging machinery parts,Bumpers, pile guards, dock fenders, Chute, hopper, truck bed liners, Wear strips, guide rails, fabricated parts,  plain sliding pads, sliding bearings, Marine Fenders, Navy Plates, Pickers, Check Strips, Trolley Wheels, Star Wheels, Conveyors, Guide Rollers, ..",
-        "Due to its strength and durability, UHMW is often used in belt scrapers, chain guides, idler rollers, sprockets machinery components, ...",
+        "Conveyor systems",
+        "Food processing industries",
+        "Pumping and valve parts",
+        "Marine Fenders, Navy Plates, Pickers, Check Strips, Trolley Wheels, Star Wheels, Guide Rollers,  Belt scrapers, chain guides, idler rollers, sprockets ",
       ]
     },
     {
       index: 1,
       name: "NYLON ",
-      description: "is popular not just for its elastic properties but also because it is durable, easy to clean, resistant to shrinking, retains it shape even after being stretched or washed. Nylon grade products are strong, stiff engineering plastic with outstanding bearing & wear properties. Nylon is frequently used to replace metal bearings, bushings and often eliminating the need for external lubrication. Other benefits include a reduction in part weight, less operating noise, and decreased wear on mating parts",
-      text: "Nylons offer high impact resistance,  high heat distortion temperature, and resist wear, abrasion, and vibration coupled with high tensile strength and modulus of elasticity",
+      description: "polymers are defined by their toughness, high impact resistance and good abrasion resistance.  Nylon is frequently used to replace metal bearings, bushings and often eliminating the need for external lubrication. Other benefits include a reduction in part weight, less operating noise, and decreased wear on mating parts.",
+      // text: "Nylons offer high impact resistance,  high heat distortion temperature, and resist wear, abrasion, and vibration coupled with high tensile strength and modulus of elasticity",
       advantages: [
-        "They are Less Expensive. Any time you are substituting a metal screw or bolt with plastics, you are going to save some money. ...",
-        "They Weigh Less. As mentioned, nylon is a very lightweight material compared to metal. ...",
-        "They're Heat Resistant. ...",
-        "They Resist Fading. ...",
-        "They are Durable. ...",
-        "They Can Have Custom Finishes.",
+        "Resistance to shrinkage",
+        "High Impact Resistance",
+        "Anticorrosive",
+        "Shock absorbing properties",
+        "Good electrical properties",
+        "Less expensive and durable",
       ],
       applications: [
-        "Nylon is used for a wide range of construction applications. ",
-        "It can be molded into a range of sheets and rods. ",
-        "It is used primarily in sheets, rods, tubes, pipes, screws, bolts, safety nets, plumbing fittings, and more. ",
+        "It is used primarily in sheets, rods, tubes, pipes, screws, bolts, safety nets, plumbing fittings, and more.",
+        "Gears, Bushes, Rollers, Washers, Seals",
+        "Sprockets,Cams, Bearings, Star wheels Guides",
         "In addition, custom cast nylon is used for crane pads, industrial hammer heads, and more applications.",
-        "Industrial uses – Conveyer and seat belts, parachutes, airbags, nets and ropes, tarpaulins, thread, and tents.",
-        "Nylon rods and sheets are used in various industrial application including textile, railways, automobile, food processing, electrical and electronics, defence, appliance manufacturing industries machine parts,",
-
       ]
     },
     {
       index: 2,
-      name: "Delrin® acetal homopolymer (Polyoxymethylene POM) ",
-      description: "is the ideal material in parts designed to replace metal. This highly-crystalline engineered thermoplastic is widely regarded for its durability, stiffness, and exceptional dimensional stability. It combines low-friction and high-wear resistance with the high strength and stiffness such applications require. These characteristics make Delrin ideal for high-load and high-impact applications such as gears, conveyor belts, bearings, rollers, bushings, fittings and safety restraints. It provides a wide operating temperature range and good colourability",
-      text: "Essentially, Delrin provides a decent balance of properties that actually bridge the gap between metals and plastics. Delrin is a free-cut plastic that offers excellent machinability properties, making it ideal for parts that require complex geometrics or tight tolerances. Due to its superior dimensional stability and good creep resistance, plastic CNC machining works perfectly with Delrin",
+      name: "DELRIN ",
+      description: "is the ideal material in parts designed to replace metal. This highly-crystalline engineered thermoplastic is widely regarded for its durability, stiffness, and exceptional dimensional stability. It combines low-friction and high-wear resistance with the high strength and stiffness such applications require. These characteristics make Delrin ideal for high-load and high-impact applications such as gears, conveyor belts, bearings, rollers, bushings, fittings and safety restraints. It provides a wide operating temperature range and good colors.",
+      // text: "Essentially, Delrin provides a decent balance of properties that actually bridge the gap between metals and plastics. Delrin is a free-cut plastic that offers excellent machinability properties, making it ideal for parts that require complex geometrics or tight tolerances. Due to its superior dimensional stability and good creep resistance, plastic CNC machining works perfectly with Delrin",
       advantages: [
-        "Lighter Weight Components",
-        "Low Noise and Vibration",
-        "No Corrosion in Moist Environments",
-        "Eliminates the Need for External Lubrication ",
-        "Easily Mass Produced and Prototyped",
-        "Less Deposit and Less Tool Cleaning",
-
+        "High durability, Stiffness and impact strength",
+        "Low noise and vibrations",
+        "Anticorrosive",
+        "Natural Lubricity",
+        "Good machinability",
       ],
       applications: [
         "High load mechanical applications. Gears. Safety restraints. Conveyor belts. Bushings,....",
@@ -86,48 +76,75 @@ export default function Features() {
     {
       index: 3,
       name: "POLYPROPYELENE (PP) ",
-      description: "is a type of polyolefin that is slightly harder than polyethylene. It is a commodity plastic with low density and high heat resistance. It finds application in plastic parts for machinery and equipment and even fibres and textiles, packaging, automotive, consumer goods, medical, cast films, etc.    It is a rigid, semi-crystalline thermoplastic which is used widely for domestic and industrial applications.  It most commonly used thermoplastics in the world",
-      text: "Polypropylene uses range from plastic packaging, plastic parts for machinery and equipment and even fibres and textiles. It is a rigid, semi-crystalline thermoplastic that was first polymerised in 1951 and is used widely today in a range of domestic and industrial applications",
+      description: "is a versatile thermoplastic polymer widely used in various industries for its exceptional properties. It's known for being lightweight, durable, and resistant to many chemicals and moisture. PP is easily moldable, making it suitable for a wide range of applications such as packaging, automotive parts, textiles, medical devices, and consumer goods. Its affordability, recyclability, and ability to withstand high temperatures further contribute to its popularity in manufacturing processes.",
+      // text: "Polypropylene uses range from plastic packaging, plastic parts for machinery and equipment and even fibres and textiles. It is a rigid, semi-crystalline thermoplastic that was first polymerised in 1951 and is used widely today in a range of domestic and industrial applications",
       advantages: [
-        "Water, chemical, and detergent resistant",
-        "Highly resistant to corrosion and chemical leaking",
-        "Malleable and fatigue resistant",
-        "Resists to freezing",
-        "Can be molded into any desired shape and remolded several times without degradation",
+        "Lightweight",
+        "High chemical resistance",
+        "Low moisture absorption",
+        "Good thermal resistance",
+        "Flexible and durable",
+        "Excellent fatigue resistance",
+        "Economical",
+        "Recyclable",
       ],
-      applications: []
+      applications: [
+        "Impellers, Flanges",
+        "Packaging and Containers",
+        "Automotive Components",
+        "Medical Devices",
+        "Electrical and Electronic Components",
+        "Building Materials",
+      ]
     },
     {
       index: 4,
-      name: "TEFLON  ",
-      description: "Properties of Teflon is a chemical resistance compound, the only chemicals that can affect these compounds are alkali metals. It shows good resistance towards heat and low temperature. It has a low water absorption capacity. It has an anti-adhesion ability due to which it is used as non-stick kitchen utensils.",
-      text: "The products and applications that depend on the characteristics of Teflon fluoropolymers range from aerospace to energy, cookware to textiles, semiconductors to smart cities.",
+      name: "TEFLON",
+      description: ", also known as polytetrafluoroethylene (PTFE), is a synthetic polymer renowned for its non-stick properties and resistance to heat and chemicals. Developed by DuPont in the 1930s, Teflon finds wide application in cookware coatings, industrial seals, electrical insulation, and medical devices. Its key attributes include exceptional non-stick performance, high temperature resistance, low friction, chemical inertness, and biocompatibility, making it indispensable across diverse industries.",
+      // text: "The products and applications that depend on the characteristics of Teflon fluoropolymers range from aerospace to energy, cookware to textiles, semiconductors to smart cities.",
       advantages: [
-        "It is heat-resistant and cold-resistant.",
-        "It is chemical-resistant.",
-        "It has great electrical properties.",
-        "It has an excellent service life, retaining its properties over a long period of time.",
-        "It is Low friction and out performs Acetal & Nylon",
+        "Non-Stick Properties",
+        "Heat Resistance",
+        "Chemical Inertness",
+        "Low Friction",
+        "Electrical Insulation",
+        "Biocompatibility",
+        "Weather Resistance",
+
       ],
       applications: [
+        "Insulators for electrical industries",
+        "Pumps, Gasket, Seals, Valves",
         "PTFE Ball valve seats, piston rings, seals, lips, cups.",
         "PTFE bearings, bushings, wear strips, gears, side plates,",
-        "Diaphragms, insulators, lantern rings, V-rings, gaskets, washers, balls.",
+        "Diaphragms, insulators, lantern rings, V-rings, washers, balls.",
       ]
     },
     {
       index: 5,
-      name: "FRP -Fibre Reinforced Polymer Composites ",
-      description: "materials are composed of matrix (epoxy resin) and fibre (Aramid, Carbon, Glass, and Basalt).",
-      text: "The stiffness and strength of composite materials are controlled by fibers which serves to enhance the mechanical strength and elasticity of the plastic, while the role of matrix is to transfer load and provide protection against environmental elements",
+      name: "Fiber-reinforced polymer (FRP) ",
+      description: ") is a composite material made of a polymer matrix reinforced with fibers. These fibers, typically glass, carbon, or aramid, provide strength and stiffness to the polymer matrix, enhancing its mechanical properties. FRP is known for its lightweight, high strength-to-weight ratio, corrosion resistance, and durability. It finds extensive applications in industries such as construction, automotive, aerospace, marine, and infrastructure. In construction, FRP is used for structural elements like beams, columns, and panels due to its strength and resistance to environmental factors. In the automotive and aerospace sectors, FRP components help reduce weight while maintaining structural integrity. Its corrosion resistance makes it suitable for marine applications like boat hulls and decks. Overall, FRP offers a versatile and cost-effective solution for various engineering challenges.",
+      // text: "The stiffness and strength of composite materials are controlled by fibers which serves to enhance the mechanical strength and elasticity of the plastic, while the role of matrix is to transfer load and provide protection against environmental elements",
       advantages: [
-        "FRP is a versatile, low cost, low maintenance and resilient materials have good mechanical properties that outperforms wood, steel or aluminum in all categories & significant advantages is their inherent resistance to corrosion and various chemicals. It weighs up to 75% less than steel but is equally stronger and unlike metals that can rust or deteriorate over time, FRP composites are impervious to moisture or chemical attacks, making them ideal for applications in harsh environments."
+        "High Strength-to-Weight Ratio",
+        "Corrosion Resistance",
+        "Lightweight",
+        "Durable",
+        "Electrical Insulation",
+        "Thermal Insulation",
+        "Design Flexibility",
+        "Impact Resistance",
+        "Low Maintenance",
       ],
       applications: [
-        "FRP can be used in a wide range of applications in construction, create strong walls and surfaces that are scratch-resistant and able to withstand high impacts, other industrial settings, grating, structures, and industrial shapes is reason enough to make the smart move to the future of industrial constructions, used in schools, hospitals, recreational facilities. The materials are often used for signboards, walkways, guardrails, and drainage systems, utility pipelines structures for water and sewage and can even be used for prefabricated houses. Aerospace is another industry that frequently uses FRP structural materials.",
-        "Automotive: Used in vehicle components, body parts, and interior elements for their lightweight and corrosion-resistant properties. ",
-        "Aerospace: Utilized in aircraft interiors, exteriors, and structural components due to their high strength-to-weight ratio",
-        "INDUSTRIAL & DOMESTIC APLICATION MOULDED PRODUCTS, PROFILES, CHANNELS, RODS, COMPONENTS, BARS, SHEETS, STRIPS, TANKS, TRAYS, BOXS, ANGLE, BEAM, TUBE, PANELS, EQUIMENT FOR TREATMENT PLANTS ETC.  ",
+        "Construction and Infrastructure",
+        "Automotive Industry",
+        "Aerospace and Marine Structures",
+        "Electrical and Electronics Enclosures",
+        "Sporting Goods and Recreation",
+        "Chemical Processing Equipment",
+        "Water and Wastewater Treatment",
+        "Renewable Energy Structures",
       ]
     },
     // {
@@ -177,18 +194,20 @@ export default function Features() {
                 {
                   tabs.map(content =>
                     <a
-                      className={`flex items-center justify-between text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== content.index ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                      className={`flex items-center justify-between text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== content.index ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-green-200 border-transparent'}`}
                       href="#0"
                       onClick={(e) => { e.preventDefault(); setTab(content.index); }}
                       key={content.index}
                     >
                       <div>
-                        <div className="font-bold leading-snug tracking-tight mb-1">{content.name}</div>
+                        <div className={`font-bold leading-snug tracking-tight mb-1 ${tab !== content.index ? '' : ' text-green-600'}`} >{content.name}</div>
                         {/* <div className="text-gray-600">{content.text}</div> */}
                       </div>
                       <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
-                        <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M11.953 4.29a.5.5 0 00-.454-.292H6.14L6.984.62A.5.5 0 006.12.173l-6 7a.5.5 0 00.379.825h5.359l-.844 3.38a.5.5 0 00.864.445l6-7a.5.5 0 00.075-.534z" />
+                        <svg key={content.index} className='transition  duration-700' viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#0ee112" transform={tab === content.index ? "rotate(0)" : "rotate(180)"}>
+                          <g id="SVGRepo_bgCarrier" stroke-width="0" />
+                          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+                          <g id="SVGRepo_iconCarrier"> <path d="M13 15L16 12M16 12L13 9M16 12H8M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke={tab === content.index ? "#3bdb0f" : "#000000"} stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /> </g>
                         </svg>
                       </div>
                     </a>)
@@ -224,11 +243,11 @@ export default function Features() {
                             <span className='h4'>{content.name}</span>
                             {content.description}
                           </div>
-                          <div>{content.text}</div>
+                          {/* <div>{content.text}</div> */}
                           {
                             content.advantages.length != 0 ?
                               <div className="p-2">
-                                <div className='h4 text-xl'>Advantages</div>
+                                <div className='h4 text-xl'>FEATURES</div>
                                 <ul className="text-lg text-gray-400 mb-2 mr-2">
                                   {
                                     content.advantages.map((advantage) =>
@@ -246,7 +265,7 @@ export default function Features() {
                           {
                             content.applications.length != 0 ?
                               <div className="p-2">
-                                <div className='h4 text-xl'>Applications</div>
+                                <div className='h4 text-xl'>APPLICATIONS</div>
                                 <ul className="text-lg text-gray-400 mb-2 mr-2">
                                   {
                                     content.applications.map((application) =>

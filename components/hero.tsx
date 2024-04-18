@@ -5,9 +5,47 @@ import VideoThumb2 from '@/public/images/VID-2-thumb.png'
 import Hero1 from '@/public/images/hero-1.png'
 import Hero2 from '@/public/images/hero-2.jpg'
 import Hero3 from '@/public/images/hero-3.png'
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
+import { Swiper, SwiperSlide, } from 'swiper/react';
 
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+
+import Slider from "react-slick";
 import Image from 'next/image'
 
+const images = [
+  {
+    original: Hero1,
+    thumbnail: Hero1.src,
+    thumbnailHeight: 100,
+    originalHeight: 300,
+  },
+  {
+    original: Hero2,
+    thumbnail: Hero2.src,
+    thumbnailHeight: 100,
+    originalHeight: 300,
+  },
+  {
+    original: Hero3,
+    thumbnail: Hero3.src,
+    thumbnailHeight: 100,
+    originalHeight: 300,
+  },
+];
+
+var settings = {
+  dots: true,
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  // autoplay: true,
+  autoplaySpeed: 2000,
+};
 export default function Hero() {
   return (
     <section id="home" className="relative">
@@ -52,9 +90,32 @@ export default function Hero() {
             </div>
           </div>
 
+          <Swiper
+            slidesPerView={1}
+            centeredSlides={true}
+            spaceBetween={30}
+            loop={true}
+            navigation={true}
+            pagination={{
+              clickable: true,
+            }}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
+            modules={[Pagination, Autoplay, Navigation]}
+            className="mySwiper h-[60vh]"
+          >{images.map(image =>
+            <SwiperSlide key={image.thumbnail} className="relative">
+              <Image src={image.original} fill
+                style={{ objectFit: "contain" }} alt='asdasd'>
+              </Image>
+            </SwiperSlide>)}
+          </Swiper>
+
           {/* Hero image */}
 
-          <div className='flex flex-wrap justify-center'>
+          {/* <div className='flex flex-wrap justify-center'>
             <div className='p-2' data-aos="zoom-y-out">
               <ModalVideo
                 thumb={VideoThumb1}
@@ -75,8 +136,16 @@ export default function Hero() {
                 videoWidth={480}
                 videoHeight={832} />
             </div>
-          </div>
-          <div className='flex flex-wrap justify-center' >
+          </div> */}
+          {/* <div className="slider-container">
+            <Slider {...settings} className="flex align-bottom">
+              {images.map(image =>
+                <Image key={image.thumbnail} width={300} src={image.original} className="p-5  " alt='asdasd'>
+                </Image>)}
+            </Slider>
+          </div> */}
+          {/* <div className=''>
+
             <div className='p-5' data-aos="fade-up" data-aos-delay="200">
               <Image src={Hero2} height={300} alt='hero1'></Image>
             </div>
@@ -86,11 +155,11 @@ export default function Hero() {
             <div className='p-5' data-aos="fade-up" data-aos-delay="200">
               <Image src={Hero3} height={300} alt='hero1'></Image>
             </div>
-          </div>
+          </div> */}
 
         </div>
 
       </div>
-    </section>
+    </section >
   )
 }
