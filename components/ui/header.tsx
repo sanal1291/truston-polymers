@@ -28,7 +28,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
 
           {/* Site branding */}
-          <div className="shrink-0 mr-4">
+          <div className="shrink-0 mr-4 h-1/1">
             <Logo />
           </div>
 
@@ -40,10 +40,10 @@ export default function Header() {
                 <Link href="#home" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Home</Link>
               </li>
               <li>
-                <Link href="#benefits" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Benefits</Link>
+                <Link href="#products" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Products</Link>
               </li>
               <li>
-                <Link href="#features" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Features</Link>
+                <Link href="#benefits" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Benefits</Link>
               </li>
               <li>
                 <Link href="#aboutus" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">About Us</Link>

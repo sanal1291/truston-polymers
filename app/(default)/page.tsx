@@ -7,15 +7,18 @@ import Testimonials from '@/components/testimonials'
 import Newsletter from '@/components/newsletter'
 import Advantages from '@/components/advantages'
 import Industry from '@/components/industry'
+import Benefits from '@/components/benefits'
 
 export default function Home() {
   return (
     <>
       <Hero />
       <Advantages />
+      <FeaturesBlocks />
       <Features />
+      <Benefits />
+
       <Industry />
-      {/* <FeaturesBlocks /> */}
       <Testimonials />
       {/* <Newsletter /> */}
     </>

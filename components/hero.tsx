@@ -2,9 +2,17 @@ import VideoThumb from '@/public/images/hero-image.png'
 import ModalVideo from '@/components/modal-video'
 import VideoThumb1 from '@/public/images/VID-1-thumb.png'
 import VideoThumb2 from '@/public/images/VID-2-thumb.png'
-import Hero1 from '@/public/images/hero-1.png'
-import Hero2 from '@/public/images/hero-2.jpg'
-import Hero3 from '@/public/images/hero-3.png'
+import Hero1 from '@/public/images/first/1.png'
+import Hero2 from '@/public/images/first/2.jpg'
+import Hero3 from '@/public/images/first/3.jpg'
+import Hero4 from '@/public/images/first/4.png'
+import Hero5 from '@/public/images/first/5.png'
+import Hero6 from '@/public/images/first/6.jpg'
+import Hero7 from '@/public/images/first/7.png'
+import Hero8 from '@/public/images/first/8.jpg'
+import Hero9 from '@/public/images/first/9.png'
+import Hero10 from '@/public/images/first/10.jpg'
+import Hero11 from '@/public/images/first/11.jpg'
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide, } from 'swiper/react';
 
@@ -33,6 +41,54 @@ const images = [
   {
     original: Hero3,
     thumbnail: Hero3.src,
+    thumbnailHeight: 100,
+    originalHeight: 300,
+  },
+  {
+    original: Hero4,
+    thumbnail: Hero4.src,
+    thumbnailHeight: 100,
+    originalHeight: 300,
+  },
+  {
+    original: Hero5,
+    thumbnail: Hero5.src,
+    thumbnailHeight: 100,
+    originalHeight: 300,
+  },
+  {
+    original: Hero6,
+    thumbnail: Hero6.src,
+    thumbnailHeight: 100,
+    originalHeight: 300,
+  },
+  {
+    original: Hero7,
+    thumbnail: Hero7.src,
+    thumbnailHeight: 100,
+    originalHeight: 300,
+  },
+  {
+    original: Hero8,
+    thumbnail: Hero8.src,
+    thumbnailHeight: 100,
+    originalHeight: 300,
+  },
+  {
+    original: Hero9,
+    thumbnail: Hero9.src,
+    thumbnailHeight: 100,
+    originalHeight: 300,
+  },
+  {
+    original: Hero10,
+    thumbnail: Hero10.src,
+    thumbnailHeight: 100,
+    originalHeight: 300,
+  },
+  {
+    original: Hero11,
+    thumbnail: Hero11.src,
     thumbnailHeight: 100,
     originalHeight: 300,
   },
@@ -70,7 +126,7 @@ export default function Hero() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
 
         {/* Hero content */}
-        <div className="pt-32 pb-6 md:pt-40 md:pb-10">
+        <div className="pt-32 pb-6 md:pt-40 md:pb-1">
 
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">

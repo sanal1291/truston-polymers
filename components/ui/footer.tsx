@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
 
         {/* Bottom area */}
-        < div className="flex items-center justify-between py-4 md:py-8 border-t border-gray-200" >
+        < div className="flex flex-col-reverse items-center sm:flex-row  sm:items-start justify-between py-4 md:py-8 border-t border-gray-200" >
 
 
           <div>
@@ -14,24 +14,33 @@ export default function Footer() {
             <div className="text-sm text-gray-600 mr-4" >trustonpolymers.com</div >
 
           </div>
-          <div>Contact address here</div>
-
-          < ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0" >
-            <li>
-              <a href="#0" className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out" aria-label="Twitter">
-                <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                  <path d="m13.063 9 3.495 4.475L20.601 9h2.454l-5.359 5.931L24 23h-4.938l-3.866-4.893L10.771 23H8.316l5.735-6.342L8 9h5.063Zm-.74 1.347h-1.457l8.875 11.232h1.36l-8.778-11.232Z" />
-                </svg>
-              </a>
-            </li>
-            <li className="ml-4">
-              <a href="#0" className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out" aria-label="Facebook">
-                <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M14.023 24L14 17h-3v-3h3v-2c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V14H21l-1 3h-2.72v7h-3.257z" />
-                </svg>
-              </a>
-            </li>
-          </ ul>
+          <div>
+            <div className='flex font-bold items-center  text-xl align-middle '>
+              <span className=''> Address</span>
+              <svg fill="#000000" width="40px" height="40px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><path d="M49,18.92A23.74,23.74,0,0,0,25.27,42.77c0,16.48,17,31.59,22.23,35.59a2.45,2.45,0,0,0,3.12,0c5.24-4.12,22.1-19.11,22.1-35.59A23.74,23.74,0,0,0,49,18.92Zm0,33.71a10,10,0,1,1,10-10A10,10,0,0,1,49,52.63Z" /></svg>
+            </div>
+            <ul>
+              <li>No.829</li>
+              <li>Ramu's Centre,MES  Ring Road</li>
+              <li>Muthyalanagar</li>
+              <li>Bangalore-560054</li>
+            </ul>
+          </div>
+          < div className="mb-4 md:order-1 md:ml-4 md:mb-0 " >
+            <div className='flex font-bold  text-xl items-center'>
+              <p className='pr-2'>Contact us</p>
+              <svg width="35px" height="35px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12ZM16 12V13.5C16 14.8807 17.1193 16 18.5 16V16C19.8807 16 21 14.8807 21 13.5V12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21H16" stroke="#000000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </div>
+            <a href='mailto:trustonpolymers@gmail.com' className='flex text-blue-600 items-center '>
+              <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 9.00005L10.2 13.65C11.2667 14.45 12.7333 14.45 13.8 13.65L20 9" stroke="#000000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M3 9.17681C3 8.45047 3.39378 7.78123 4.02871 7.42849L11.0287 3.5396C11.6328 3.20402 12.3672 3.20402 12.9713 3.5396L19.9713 7.42849C20.6062 7.78123 21 8.45047 21 9.17681V17C21 18.1046 20.1046 19 19 19H5C3.89543 19 3 18.1046 3 17V9.17681Z" stroke="#000000" strokeWidth="2" strokeLinecap="round" />
+              </svg>
+              trustonpolymers@gmail.com
+            </a>
+          </ div>
         </div >
 
       </div >
