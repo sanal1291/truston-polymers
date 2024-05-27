@@ -21,7 +21,7 @@ export default function FeaturesBlocks() {
     <section id="products" className="relative">
 
       {/* Section background (needs .relative class on parent and next sibling elements) */}
-      <div className="absolute inset-0 top-1/2 md:mt-24 lg:mt-0 bg-gray-900 pointer-events-none" aria-hidden="true"></div>
+      {/* <div className="absolute inset-0 top-1/2 md:mt-24 lg:mt-0 bg-gray-900 pointer-events-none" aria-hidden="true"></div> */}
       <div className="absolute left-0 right-0 bottom-0 m-auto w-px p-px h-20 bg-gray-200 transform translate-y-1/2"></div>
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
@@ -34,10 +34,10 @@ export default function FeaturesBlocks() {
           </div>
 
           {/* Items */}
-          <div className="grid gap-6 md:grid-cols-1 lg:grid-cols-2 items-start max-w-none">
+          <div className="grid gap-6 md:grid-cols-1 lg:grid-cols-2 items-start max-w-none ">
             {
               features.map(feature =>
-                <div key={feature.title} className="relative mx-auto max-w-lg  grid grid-cols-2 gap-4 p-6 bg-white rounded  shadow-inner min-w-48">
+                <div key={feature.title} className="relative mx-auto max-w-lg h-1/1  grid grid-cols-2 gap-4 p-6 bg-white rounded  shadow-inner min-w-48">
                   <div className="grid">
                     <Image src={feature.image} objectFit="" alt="stock material image"></Image>
                   </div>

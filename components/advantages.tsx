@@ -34,7 +34,7 @@ export default function Advantages() {
                         <h4 className="mb-4 text-gray-600" data-aos="zoom-y-out">Truston committed to provide the best service and the best products to our customers.</h4>
                         <h4 className="mb-4 text-gray-600" data-aos="zoom-y-out">The high-performing Engineering Plastics are used in numerous industrial applications including,</h4>
                         <div className="flex  flex-col md:flex-row">
-                            <ul className="text-lg text-gray-400 mb-2 mr-2">
+                            <ul className="text-lg  mb-2 mr-2">
                                 {
                                     applications.map((application) =>
                                         <li className="flex  mb-2" key={application} data-aos="zoom-y-out">

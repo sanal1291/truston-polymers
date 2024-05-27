@@ -3,10 +3,10 @@ import Logo from './logo'
 export default function Footer() {
   return (
     <footer>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className=" align-middle  px-4 sm:px-6 bg-gray-200">
 
         {/* Bottom area */}
-        < div className="flex flex-col-reverse items-center sm:flex-row  sm:items-start justify-between py-4 md:py-8 border-t border-gray-200" >
+        < div className="max-w-6xl mx-auto flex flex-col-reverse items-center sm:flex-row  sm:items-start justify-between py-4 md:py-8 border-t border-gray-200" >
 
 
           <div>

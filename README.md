@@ -88,8 +88,8 @@ If you would like to know when we release new resources, you can follow us on [T
 
 
 
-1. before Benefits of Engineering Plastics add <FeaturesBlocks/>
+<!-- 1. before Benefits of Engineering Plastics add <FeaturesBlocks/> -->
 <!-- 2. benefits after instant features -->
 <!-- 3. logo background remove -->
 <!-- 4. add contact details -->
-5. add background image for whole website
+<!-- 5. add background image for whole website -->

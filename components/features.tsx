@@ -168,7 +168,7 @@ export default function Features() {
     <section id='features' className="relative">
 
       {/* Section background (needs .relative class on parent and next sibling elements) */}
-      <div className="absolute inset-0 bg-gray-100 pointer-events-none mb-16" aria-hidden="true"></div>
+      <div className="absolute inset-0 pointer-events-none mb-16" aria-hidden="true"></div>
       <div className="absolute left-0 right-0 m-auto w-px p-px h-20 bg-gray-200 transform -translate-y-1/2"></div>
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
@@ -248,7 +248,7 @@ export default function Features() {
                             content.advantages.length != 0 ?
                               <div className="p-2">
                                 <div className='h4 text-xl'>FEATURES</div>
-                                <ul className="text-lg text-gray-400 mb-2 mr-2">
+                                <ul className="text-lg text-gray-800 mb-2 mr-2">
                                   {
                                     content.advantages.map((advantage) =>
                                       <li className="flex  mb-2" key={advantage}>
@@ -266,7 +266,7 @@ export default function Features() {
                             content.applications.length != 0 ?
                               <div className="p-2">
                                 <div className='h4 text-xl'>APPLICATIONS</div>
-                                <ul className="text-lg text-gray-400 mb-2 mr-2">
+                                <ul className="text-lg text-gray-800 mb-2 mr-2">
                                   {
                                     content.applications.map((application) =>
                                       <li className="flex  mb-2" key={application}>

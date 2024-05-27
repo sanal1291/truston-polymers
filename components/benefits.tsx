@@ -30,7 +30,7 @@ export default function Benefits() {
                         <h1 className="h2 text-center mb-4" data-aos="zoom-y-out">Benefits of Engineering Plastics</h1>
                         {/* <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p> */}
                         <div className="flex justify-center flex-col md:flex-row">
-                            <ul className="text-lg text-gray-400 mb-2 mr-2 columns-1 md:columns-2">
+                            <ul className="text-lg text-gray-800 mb-2 mr-2 columns-1 md:columns-2">
                                 {
                                     advantages.map((advantage) =>
                                         <li className="flex  mb-2" key={advantage} data-aos="zoom-y-out">
