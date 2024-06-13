@@ -31,9 +31,9 @@ export default function Advantages() {
                     <div className="max-w-3xl mx-auto  pb-3 md:pb-3">
                         {/* <h1 className="h2 mb-4">Benefits of Engineering Plastics</h1> */}
                         <h3 className="mb-4 " data-aos="zoom-y-out">TRUSTON was established in 2017 as a partnership firm to serve quality Polymers & customized products to boost the thrust of engineering growth in India. Three decades of experience & technical expertise in the Polymer processing industry helps us to identify perfect material combination for each application.</h3>
-                        <h4 className="mb-4 text-gray-600" data-aos="zoom-y-out">Truston committed to provide the best service and the best products to our customers.</h4>
-                        <h4 className="mb-4 text-gray-600" data-aos="zoom-y-out">The high-performing Engineering Plastics are used in numerous industrial applications including,</h4>
-                        <div className="flex  flex-col md:flex-row">
+                        <h4 className="mb-4  text-blue-900" data-aos="zoom-y-out">Truston committed to provide the best service and the best products to our customers.</h4>
+                        <h4 className="mb-4  text-blue-900" data-aos="zoom-y-out">The high-performing Engineering Plastics are used in numerous industrial applications.</h4>
+                        {/* <div className="flex  flex-col md:flex-row">
                             <ul className="text-lg  mb-2 mr-2">
                                 {
                                     applications.map((application) =>
@@ -46,7 +46,7 @@ export default function Advantages() {
                                     )
                                 }
                             </ul>
-                        </div>
+                        </div> */}
                     </div>{/* Section header */}
                 </div>
             </div></section>

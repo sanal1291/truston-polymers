@@ -13,6 +13,8 @@ import Hero8 from '@/public/images/first/8.jpg'
 import Hero9 from '@/public/images/first/9.png'
 import Hero10 from '@/public/images/first/10.jpg'
 import Hero11 from '@/public/images/first/11.jpg'
+import Hero12 from '@/public/images/first/12.png'
+import Hero13 from '@/public/images/first/13.jpg'
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide, } from 'swiper/react';
 
@@ -68,12 +70,12 @@ const images = [
     thumbnailHeight: 100,
     originalHeight: 300,
   },
-  {
-    original: Hero8,
-    thumbnail: Hero8.src,
-    thumbnailHeight: 100,
-    originalHeight: 300,
-  },
+  // {
+  //   original: Hero8,
+  //   thumbnail: Hero8.src,
+  //   thumbnailHeight: 100,
+  //   originalHeight: 300,
+  // },
   {
     original: Hero9,
     thumbnail: Hero9.src,
@@ -89,6 +91,18 @@ const images = [
   {
     original: Hero11,
     thumbnail: Hero11.src,
+    thumbnailHeight: 100,
+    originalHeight: 300,
+  },
+  {
+    original: Hero12,
+    thumbnail: Hero12.src,
+    thumbnailHeight: 100,
+    originalHeight: 300,
+  },
+  {
+    original: Hero13,
+    thumbnail: Hero13.src,
     thumbnailHeight: 100,
     originalHeight: 300,
   },
@@ -134,7 +148,7 @@ export default function Hero() {
               {/* <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">wonderful</span> */}
             </h1>
             <div className="max-w-3xl mx-auto">
-              <p className="text-xl text-gray-600 mb-2" data-aos="zoom-y-out" data-aos-delay="150">Truston Polymers is engaged in manufacturing, Processing and Design   Polymer rods, Sheets, high-performance Components & profiles. We also stocks wide range of Engineering Plastic Products to meet the requirements of our customers. </p>
+              <p className="text-xl text-black font-bold mb-2" data-aos="zoom-y-out" data-aos-delay="150">Truston Polymers is engaged in manufacturing, Processing and Design Polymer rods, Sheets, high-performance Components & profiles. We also stocks wide range of Engineering Plastic Products to meet the requirements of our customers. </p>
               {/* <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
                   <a className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Start free trial</a>

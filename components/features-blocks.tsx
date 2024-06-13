@@ -1,19 +1,19 @@
 import { useState } from "react"
 import Image from 'next/image'
-import main from '@/public/images/products/main.jpg'
-import main2 from '@/public/images/products/main2.jpg'
+import main from '@/public/images/products/2.jpg'
+import main2 from '@/public/images/products/1.jpg'
 
 export default function FeaturesBlocks() {
 
   const [features, usefeatures] = useState([
     {
       title: "Stock material",
-      image: main,
+      image: main2,
       contents: "we offer Polymer rods and sheets of various sizes and colours as per requirement"
     },
     {
       title: "Machined Components",
-      image: main2,
+      image: main,
       contents: "We offer wide range of machined polymer parts and components"
     },
   ])

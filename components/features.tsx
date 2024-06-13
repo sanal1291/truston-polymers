@@ -15,7 +15,7 @@ export default function Features() {
     {
       index: 0,
       name: "UHMW-PE ",
-      description: "Is an extremely tough plastic with high abrasion and wear resistance. The versatility of polyethylene has made it a popular plastic for countless industrial applications that require durability, low friction, and chemical resistance. It is used in biomedical engineering due to its high wear-resistance, ductility, and biocompatibility, high tensile & compressive strength. ",
+      description: "Is an extremely tough plastic with high abrasion and wear resistance. The versatility of polyethylene has made it a popular plastic for countless industrial applications that require durability, low friction, and chemical resistance. It is used in biomedical engineering due to its high wear-resistance, ductility, and biocompatibility, high tensile & compressive strength.",
       // text: "Ram Extrusion Rods upto 150mm dia, Compression moulded sheets upto 175mm Thcikness & Profiles.   We can supply large quantity with colour choice.",
       advantages: [
         "Impact Resistant",
@@ -49,8 +49,8 @@ export default function Features() {
       ],
       applications: [
         "It is used primarily in sheets, rods, tubes, pipes, screws, bolts, safety nets, plumbing fittings, and more.",
-        "Gears, Bushes, Rollers, Washers, Seals",
-        "Sprockets,Cams, Bearings, Star wheels Guides",
+        "Gears, Bushes, Rollers, Washers, Seals.",
+        "Sprockets, Cams, Bearings, Star wheels Guides.",
         "In addition, custom cast nylon is used for crane pads, industrial hammer heads, and more applications.",
       ]
     },
@@ -100,7 +100,7 @@ export default function Features() {
     {
       index: 4,
       name: "TEFLON",
-      description: ", also known as polytetrafluoroethylene (PTFE), is a synthetic polymer renowned for its non-stick properties and resistance to heat and chemicals. Developed by DuPont in the 1930s, Teflon finds wide application in cookware coatings, industrial seals, electrical insulation, and medical devices. Its key attributes include exceptional non-stick performance, high temperature resistance, low friction, chemical inertness, and biocompatibility, making it indispensable across diverse industries.",
+      description: ", also known as polytetrafluoroethylene (PTFE), is a synthetic polymer renowned for its non-stick properties and resistance to heat and chemicals. Teflon finds wide application in cookware coatings, industrial seals, electrical insulation, and medical devices. Its key attributes include exceptional non-stick performance, high temperature resistance, low friction, chemical inertness, and biocompatibility, making it indispensable across diverse industries.",
       // text: "The products and applications that depend on the characteristics of Teflon fluoropolymers range from aerospace to energy, cookware to textiles, semiconductors to smart cities.",
       advantages: [
         "Non-Stick Properties",

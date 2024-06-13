@@ -8,6 +8,7 @@ import Newsletter from '@/components/newsletter'
 import Advantages from '@/components/advantages'
 import Industry from '@/components/industry'
 import Benefits from '@/components/benefits'
+import Stocks from '@/components/stocks'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Advantages />
       <FeaturesBlocks />
       <Features />
+      <Stocks />
       <Benefits />
 
       <Industry />

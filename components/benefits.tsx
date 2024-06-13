@@ -6,14 +6,14 @@ export default function Benefits() {
         "High resistance to Abrasion, Corrosion, wear, Impact, Chemical, fatigue, Heat, Fire ",
         "Low maintenance, coefficient of friction, wear, moisture absorption,",
         "Design flexibility (colours, textures)  ",
-        "Lightweight ",
+        "Lightweight & Safe to handle",
         "Low Noise and vibration ",
         "Lower cost than traditional materials",
         "Better sealing performance",
         "Easier to fabricate, machining, ship & install  ",
         "Self-lubricating, ",
         "High pressure/velocity performance",
-        "Stable and rigid ",
+        "Stable and rigid & Colour options ",
 
     ]);
     const [applications, setApplications] = useState([
